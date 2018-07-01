@@ -7,7 +7,7 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		 
 		String configLoc = "classpath:applicationCTX.xml";
 		AbstractApplicationContext ctx = new GenericXmlApplicationContext(configLoc);
 		MyCalculator myCalculator = ctx.getBean("mycalculator",MyCalculator.class); //getBean의 첫번째 객체엔 xml에서 선언한 bean의  id가 들어가야함;
