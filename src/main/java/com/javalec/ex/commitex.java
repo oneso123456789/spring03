@@ -8,5 +8,6 @@ public class commitex {
 		System.out.println("또 올림");
 		System.out.println("또 올림");
 		System.out.println("또 올림");
+		System.out.println("또 올림");
 	}
 }
